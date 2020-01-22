@@ -296,7 +296,7 @@ public class BinarySearchTree<T extends Comparable<T>> {
 
             @Override
             public void remove() {
-                throw new UnsupportOperationException();
+                throw new UnsupportedOperationException();
             }
         };
     }
