@@ -65,6 +65,7 @@ public class IntStack {
         while (!s.isEmpty()) System.out.println(s.pop());
 
         benchMarkTest();
+        
     }
 
     //BenchMark IntStack vs ArrayDeque
